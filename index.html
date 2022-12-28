@@ -53,6 +53,7 @@
           <li><a class="nav-link" href="#resume">КУРСЫ</a></li>
           <li><a class="nav-link" href="#services">УСЛУГИ</a></li>
           <li><a class="nav-link" href="#contact">КОНТАКТЫ</a></li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -634,12 +635,152 @@
     </div>
   </section><!-- End Contact Section -->
 
+ <!-- ======= Contact Section ======= -->
+  <section id="learn" class="learn">
+    <div class="container">
+
+      <div class="section-title">
+
+        <h2>Обучение</h2>
+ 
+      </div>
+
+      <div class="row mt-2">
+
+       <div class="col-lg-6">
+
+        
+         
+         <div id="cardImage">
+
+  
+
+
+        </div>
+
+        
+         <button onClick="window.location.reload();" class="btn btn-dark mt-2 mb-2 ">Перемешать</button>
+         <button onClick="imgRandom()" class="btn btn-dark mt-2 mb-2 ">Добавить карту</button>
+            
+      
+
+
+       </div>
+
+        <div class="col-lg-6">
+<h4>Значение карт: <a href="https://vk.com/doc-178156130_631988465"> Книга</h4>
+        </a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
   <div class="credits" style="background-color: black;">
   
     Бесплатная консультация по whatsapp|telegram <a href="tel:+77770543266"> +7 777 054 32 66</a> | 
     <a href="tel:+77770543240"> +7 777 054 32 40</a>  |
     <a href="tel:+77772605885"> +7 777 260 58 85</a> |   <a href="tel:+77770543235"> +7 777 054 32 35</a> 
   </div>
+
+  <script type="text/javascript">
+
+    var card = document.getElementById("cardImage");
+
+
+imgRandom();
+
+function imgRandom(){
+
+      var images = [
+"L0dkT7G/02",
+"CbTZNGp/03",
+"PQZ1LfR/04",
+"52FVz1g/05",
+"5BgRmKH/06",
+"CWJnhbh/07",
+"NZGN430/08",
+"Dphv87Y/09",
+"Kjc1CdJ/10",
+"FwSKs7r/11",
+"Fw8s28k/12",
+"94sDRqY/13",
+"64hcPNn/14",
+"dfq7cBQ/15",
+"ChPP36V/16",
+"ZJzL26x/17",
+"WzKgwxg/18",
+"F4DGR09/19",
+"djr8Sqw/20",
+"M9TTP3D/21",
+"j5gDTX9/22",
+"ftnH3gd/23",
+"SNbtMsT/24",
+"X5RfrwV/25",
+"RB31Y94/26",
+"XW1PB7S/27",
+"vXSMPYt/28",
+"HCvt56C/29",
+"QF3fTQD/30",
+"jVZYPbS/31",
+"JcN4PgG/32",
+"MkPVgfb/33",
+"TbgWL28/34",
+"C07Xnmd/35",
+"4MBtxwM/36",
+"C1N1KNM/37",
+"F04WYqQ/38",
+"k25VWcF/39",
+"NN9g7tV/40",
+"cynjywG/41",
+"JnR6t7K/42",
+"gy0bZHV/43",
+"ySjcp2v/44",
+"vQJ7WdP/45",
+"fpK5fbw/46",
+"Kj1ynK4/47",
+"JpM7Vt6/48",
+"Sf260st/49",
+"zXCsxN0/50",
+"wcSSSwF/51",
+"s2zXxKk/52",
+"bH5DH5b/53",
+"tZnBrFV/54",
+"68BycFS/55",
+"2j4rk7p/56",
+"Zmn3D6J/57",
+"5rVvCYH/58",
+"THTw0GS/59",
+"bdJW3JF/60",
+"bWR666g/61",
+"VCMt3K6/62",
+"25L9CWF/63",
+"cxWbg0K/64",
+"5hHMMYt/65",
+"ByGNKbj/66",
+"5nNX9FG/67",
+"T1nr08k/68",
+"j6V2KSJ/69",
+"HK2GdL1/70",
+"jb4x63g/71",
+"51T2QZd/72",
+"PrX7J1h/73",
+"dLRGCW9/74",
+"9qhY4BX/75",
+"xqhnQ8X/76",
+"djjfS2t/77",
+"4WcjBNN/78",
+"ZKXzHD6/79"
+      ];
+var randomPick = images[Math.random() * images.length | 0];
+var url = "https://i.ibb.co/" + randomPick + ".jpg";
+card.appendChild(new Image()).src = url;
+}
+        
+   </script>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
